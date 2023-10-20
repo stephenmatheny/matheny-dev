@@ -1,0 +1,69 @@
+.wrapper,
+html,
+body {
+	height: 100%;
+	margin: 0;
+	background-image: url('./assets/img/main-background.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'MainFont';
+}
+
+@font-face {
+	font-family: 'MainFont';
+	src: url('./assets/fonts/gothic.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.nav,
+.footer {
+	background-color: black;
+	font-family: 'MainFont';
+	color: white;
+}
+
+.nav {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	/* text-align: center; */
+}
+
+.initials {
+	grid-row: 1/2;
+	text-align: start;
+	padding-left: 1vw;
+	font-size: 3vh;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-row: 1/2;
+	text-align: end;
+	border: 1px;
+	border-style: solid;
+	border-color: red;
+}
+
+.sub-menu {
+	grid-column: 1/4;
+	padding-right: 1vw;
+	font-size: 1vh;
+	border: 1px;
+	border-style: solid;
+	border-color: red;
+}
+
+.hyperlink {
+	color: white;
+	text-decoration: none;
+}
+
+.hyperlink:hover {
+	color: grey;
+	transition: all .8s ease;
+	text-decoration: none;
+}
+

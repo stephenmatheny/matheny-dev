@@ -1,0 +1,16 @@
+.skills {
+	display: grid;
+	grid-template: auto / auto auto;
+    height: 80vh;
+	color: white;
+	text-align: center;
+    font-size: 4vw;
+}
+
+.sub-skills-1 {
+	padding-left: 1vw;
+}
+
+.sub-skills-2 {
+	padding-right: 1vw;
+}

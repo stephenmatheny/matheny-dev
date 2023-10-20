@@ -1,0 +1,11 @@
+.title {
+	text-align: center;
+	color: white;
+	height: 80vh;
+	font-size: 3vw;
+	/* background-color: blue; */
+}
+
+.sub-title-container {
+	padding-top: 25vh;
+}

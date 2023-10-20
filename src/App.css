@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'MainFont';
+	src: url('./assets/fonts/gothic.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'MainFont';
+}
+
+html {
+	background-image: url('./assets/img/main-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.main-content {
+	display: grid;
+	grid-template: auto / auto;
+}

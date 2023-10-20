@@ -1,0 +1,18 @@
+.about-me {
+	display: grid;
+	grid-template: auto / auto auto;
+    height: 80vh;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(8px);
+	text-align: center;
+    font-size: 4vw;
+}
+
+.sub-about-me-1 {
+	padding-left: 1vw;
+}
+
+.sub-about-me-2 {
+	padding-right: 1vw;
+}

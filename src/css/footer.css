@@ -1,0 +1,17 @@
+.footer {
+	height: 10vw;
+	display: grid;
+	grid-template: auto;
+	color: white;
+	text-align: center;
+	font-size: 1.5vw;
+	background-color: black;
+}
+
+.sub-skills-1 {
+	padding-left: 1vw;
+}
+
+.sub-skills-2 {
+	padding-right: 1vw;
+}

@@ -1,0 +1,178 @@
+.wrapper,
+html,
+body {
+  height: 100%;
+  margin: 0;
+	background-image: url('./assets/img/main-background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@font-face {
+	font-family: 'MainFont';
+	src: url('./assets/fonts/gothic.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav,
+.footer {
+  background-color: black;
+  font-family: 'MainFont';
+  color: white;
+  font-size: 3vh;
+}
+
+.footer-link {
+  font-size: 1vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-menu {
+  padding-right: 2vw;
+  font-size: 2vh;
+}
+
+.initials {
+  text-decoration: underline;
+  font-size: 5vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  transition: all .8s ease;
+  text-decoration: none;
+}
+
+.title,
+.skills,
+.contact {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  color: white;
+  min-height: 75vh;
+  font-size: 3vh;
+}
+
+.title {
+  min-height: 85vh;
+  flex-direction: column;
+  font-size: 3vh;
+  justify-content: center;
+}
+
+.wave-container {
+  display: flex;
+  justify-content: center;
+}
+
+.wave {
+  width: 0.2vw;
+  height: 1vh;
+  background: linear-gradient(45deg,grey, #fff);
+  margin: 0.2vw;
+  animation: wave 4s linear infinite;
+  border-radius: 20px;
+}
+
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+
+hr {
+  width: 4vw;
+  /* border: solid; */
+}
+
+.about-me,
+.experience {
+  display: flex;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  text-align: center;
+  color: white;
+  min-height: 80vh;
+  font-size: 3vh;
+}
+
+.sub {
+  flex: 1;
+}
+
+h1 {
+	font-family: 'MainFont';
+}
+
+h3 {
+	font-family: 'MainFont';
+}
