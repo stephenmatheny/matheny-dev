@@ -3,6 +3,8 @@
 	grid-template: auto;
     height: 80vh;
 	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(8px);
 	text-align: center;
     font-size: 4vw;
 }
