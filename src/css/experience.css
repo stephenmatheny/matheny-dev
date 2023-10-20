@@ -2,9 +2,9 @@
 	display: grid;
 	grid-template: auto;
     height: 80vh;
-	color: white;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.4);
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(8px);
     font-size: 4vw;
 }
